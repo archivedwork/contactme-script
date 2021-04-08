@@ -1,0 +1,15 @@
+PostMan Instructions
+
+in postman
+
+POST http://localhost:5000/contact
+
+headers, content-type: application/json
+
+body -> raw -> json ->
+{
+    "name": "mody",
+    "email": "example@gmail.com",
+    "message": "Hi I am creating contact form yay"
+
+}
